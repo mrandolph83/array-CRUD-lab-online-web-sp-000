@@ -34,7 +34,7 @@ Open up `lib/array_crud.rb` and check out the `#create_an_empty_array` method. I
 We'll use the literal constructor to make a new array with nothing in it:
 
 ```ruby
-def create_an_empty_array
+def create_an_empty_array(array)
   array = []
 end
 ```
